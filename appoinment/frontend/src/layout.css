@@ -1,0 +1,85 @@
+.main{
+    padding: 200px;
+    height: 100vh;
+}
+.sidebar{
+    background-color: #F0F5F7;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 20px;
+    min-height: 100%;
+    padding: 100px;
+    
+}
+.header{
+    background-color: white;
+    box-shadow: 0 0 2px gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content{
+    width: 100%;
+    height: 100%;
+}
+
+.body{
+background-color: white;
+border-radius: 5px;
+width: 100%;
+box-shadow: 0 0 2px gray;
+height: 80vh;
+padding: 15px;
+
+}
+
+.menu{
+    margin-top: 100px;
+    padding: 0 10px;
+}
+
+.menu-item{
+    margin-top: 30px;
+
+}
+.menu-item a{
+    color: rgba(0, 0, 0, 0.749);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.menu-item i{
+    color: rgba(0, 0, 0, 0.715);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px; 
+}
+.active-menu-item{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.693);
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}
+.remix-icon{
+    font-size: 30px ;
+    color: black !important;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+
+@media screen and (max-width:768px){
+    .menu{
+        padding: 0 5px;
+    }
+    
+}
+.anchor{
+    font-size: 20px;
+    color: black;
+}

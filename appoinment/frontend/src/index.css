@@ -1,0 +1,122 @@
+input{
+  border-radius: 0 !important;
+  border: 1px solid rgba(128, 128, 128, 0.618) !important;
+  height: 40px !important;
+}
+input:focus, .ant-picker{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+label{
+  font-size: 16px !important;
+  color: black !important;
+}
+.spinner-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.53);
+  position: fixed;
+}
+p{
+  color: rgba(0, 0, 0, 0.762);
+  margin-top:3px !important ;
+  padding-top: 0 !important;
+  padding: 0 !important;
+}
+
+
+.card{
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+  cursor: pointer;
+
+}
+.page-title{
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.689);
+  font-weight: bold;
+
+
+}
+.card-title{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.352);
+}
+.normal-text{
+  font-size: 1rem;
+
+}
+
+
+
+.authentication{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#F0F5F7;
+ 
+  background-size: cover;
+  background-attachment: fixed;
+ 
+ 
+}
+.register-form {
+  
+  width:400px ;
+  opacity: 1 !important;
+  
+
+}
+.primary-button{
+  background-color:black !important ;
+  color: white !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 40px !important;
+  width: 100% !important;
+  font-size: 15px !important;
+  width: max-content !important;
+
+}
+.register-link{
+  color: black !important;
+  font-size: 15px !important;
+  text-decoration: underline;
+
+}
+.register-link:hover{
+  color: gray !important;
+}
+.remix-icon{
+  font-size: 18px;
+
+}
+
+.ant-form-item{
+  margin: 10px 0!important;
+
+}
+.ant-picker-input input{
+  border: none !important;
+
+}
+.ant-picker{
+  height: 40px !important;
+  border-radius: 0 !important;
+  border: 1px solid rgba(128, 128, 128, 0.618) !important;
+}
+.anchor{
+  cursor: pointer !important;
+}
+
+
